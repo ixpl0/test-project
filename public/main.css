@@ -1,0 +1,20 @@
+body {
+  user-select: none;
+}
+
+#answer,
+#letters {
+  gap: 8px;
+}
+
+#answer {
+  height: 46px;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+#answer .btn,
+#letters .btn {
+  width: 40px;
+  aspect-ratio: 1;
+}

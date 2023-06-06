@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>English Vocabulary Trainer</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div
+        id="question"
+        class="flex-column align-items-center w-100 text-center mx-auto d-none"
+      >
+        <h2 class="mb-5">English Vocabulary Trainer</h2>
+
+        <p class="lead mb-1">
+          Form a valid English word using the given letters
+        </p>
+        <p class="mb-5">
+          Question <span id="current_question">1</span> of
+          <span id="total_questions">6</span>
+        </p>
+
+        <div>
+          <div
+            id="answer"
+            class="bg-light mb-3 d-flex justify-content-center"
+          ></div>
+          <div id="letters" class="d-flex justify-content-center"></div>
+        </div>
+      </div>
+
+      <div
+        id="results"
+        class="flex-column align-items-center w-100 text-center mx-auto d-none"
+      >
+        <h2 class="mb-5">Results</h2>
+
+        <p class="mb-1">Perfect words: <span id="perfect_words"></span></p>
+        <p class="mb-1">Errors: <span id="errors_count"></span></p>
+        <p class="mb-1">The hardest word: <span id="hardest_word"></span></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

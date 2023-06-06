@@ -1,0 +1,9 @@
+export const answerBoxId = "answer";
+export const lettersBoxId = "letters";
+export const currentQuestionBoxId = "current_question";
+export const totalQuestionsBoxId = "total_questions";
+export const questionBoxId = "question";
+export const resultsBoxId = "results";
+export const perfectWordsBoxId = "perfect_words";
+export const errorsCountBoxId = "errors_count";
+export const hardestWordBoxId = "hardest_word";
